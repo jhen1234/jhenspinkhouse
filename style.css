@@ -199,4 +199,26 @@ footer a {
 footer a:hover {
     color: #ffe6f2; /* Light pink on hover */
 }
+/* Responsive Styling for Mobile Devices */
+@media (max-width: 768px) {
+    body {
+        background-color: #ffe6f2; /* Light pink for mobile consistency */
+    }
+
+    nav {
+        background-color: #ff80bf; /* Slightly lighter pink for nav on mobile */
+    }
+
+    section {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    h1, h2 {
+        font-size: 1.5em; /* Reduce heading sizes slightly for smaller screens */
+    }
+
+    p {
+        font-size: 1em; /* Keep paragraphs readable on mobile */
+    }
+}
 
