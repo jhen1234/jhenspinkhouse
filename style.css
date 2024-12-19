@@ -1,14 +1,202 @@
 body {
     background-color: lightpink;
-    font-family: 'Comic Sans MS', cursive;
+    font-family: 'Pacifico', cursive;
 }
 
 h1 {
-    color: white;
+    color: white(230, 157, 216);
     text-shadow: 2px 2px 5px hotpink;
 }
 
 p {
     font-size: 1.2em;
-    color: darkmagenta;
+    color: fuchsia;
 }
+/* Apply Quicksand font to the entire website */
+body {
+    font-family: 'Quicksand', sans-serif; /* Set Quicksand for body text */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9e6f2; /* Light pink background */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #ff66b2; /* Pink background */
+    padding: 15px 0;
+    position: fixed; /* Keeps it at the top even when scrolling */
+    top: 0;
+    width: 100%; /* Full width */
+    z-index: 1000; /* Stays on top of other content */
+}
+
+nav ul {
+    list-style-type: none; /* Remove bullet points */
+    display: flex; /* Arrange links horizontally */
+    justify-content: center; /* Center the links */
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px; /* Space between each item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text color */
+    font-size: 18px; /* Font size of the links */
+    font-weight: bold; /* Bold links */
+    transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+nav ul li a:hover {
+    color: #ff3399; /* Darker pink on hover */
+}
+
+/* Welcome Section Styling */
+#home {
+    text-align: center;
+    margin-top: 80px; /* Push down to avoid overlap with the nav bar */
+    padding: 40px;
+}
+
+#home h1 {
+    font-family: 'Dancing Script', cursive; /* Dancing Script for headings */
+    color: #ff66b2; /* Pink color for heading */
+}
+
+#home p {
+    font-size: 18px;
+    color: #333; /* Dark text for readability */
+}
+/* Apply Quicksand font to the entire website */
+body {
+    font-family: 'Quicksand', sans-serif; /* Body text uses Quicksand */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9e6f2; /* Light pink background */
+}
+
+/* Navigation Bar Styling */
+nav {
+    background-color: #ff66b2; /* Pink background */
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #ff3399;
+}
+
+/* Welcome Section Styling */
+#home {
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+#home h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #ff66b2; /* Pink color for heading */
+}
+
+#home p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* General Section Styling */
+section {
+    padding: 40px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* Heading and Body Styling for Each Section */
+section h2 {
+    font-family: 'Dancing Script', cursive;
+    color: #ef097c; /* Pink color for headings */
+    font-size: 30px;
+}
+
+section p {
+    font-size: 18px;
+    color: #333; /* Dark color for text */
+    margin-top: 10px;
+}
+
+/* Specific Section Background Colors */
+#about {
+    background-color: #ffb3d9; /* Soft pink for About section */
+}
+
+#products {
+    background-color: #ff80bf; /* Medium pink for Products section */
+}
+
+#contact {
+    background-color: #ff66b2; /* Bold pink for Contact section */
+}
+/* Welcome Section Styling */
+#home {
+    text-align: center;
+    margin-top: 80px;
+    padding: 40px;
+}
+
+#home h1 {
+    font-family: 'Dancing Script', cursive;
+    color: #ff66b2; /* Pink color for heading */
+    font-size: 40px; /* Increased font size for bigger welcome heading */
+}
+
+#home p {
+    font-size: 24px; /* Increased font size for bigger welcome paragraph */
+    color: #333;
+}
+/* Footer Styling */
+footer {
+    background-color: #edbdd5; /* Bold pink background */
+    color: white; /* White text for contrast */
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+footer a {
+    color: white; /* Links match the footer text */
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffe6f2; /* Light pink on hover */
+}
+
